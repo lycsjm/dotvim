@@ -1,0 +1,11 @@
+Installation:
+
+    git clone git://github.com/lycsjm/dotvim.git ~/.vim
+
+Create symlinks:
+
+    ln -s ~/.vim/vimrc ~/.vimrc 
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Get plugins:
+    :BundleInstall in vim
