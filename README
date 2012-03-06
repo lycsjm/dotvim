@@ -7,5 +7,8 @@ Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc 
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
-Get plugins:
-    :BundleInstall in vim
+Install Vundle:
+    mkdir ~/.vim/bundle
+    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+in vim, do:
+    :BundleInstall
